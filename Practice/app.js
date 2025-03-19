@@ -1,6 +1,6 @@
 //modules protect their varaibles and function from leaking
 require("./xyz.js"); // cant able to access variable and function
-require("./calculate/sum.js");
+require("../calculate/sum.js");
 var myName = "Arul Murugan M";
 
 var a = 30;

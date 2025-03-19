@@ -5,7 +5,7 @@
 // obj.calculateSum(10, 20);
 // console.log(obj.x);
 
-const { x, calculateSum } = require("./calculate/sum");
+const { x, calculateSum } = require("../calculate/sum");
 
 console.log(x);
 calculateSum(20, 20);
